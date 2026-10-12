@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="dynamic-title">Mice Control in Burlington | Saniiq Pest Solutions</title>
+    <meta id="dynamic-meta" name="description" content="Professional, eco-friendly mice control in Burlington. Humane trapping, complete exclusion, and permanent rodent prevention by Saniiq specialists.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        mint: {
+                            50: '#f0fdf4',
+                            100: '#dcfce7',
+                            200: '#bbf7d0',
+                            300: '#86efac',
+                            400: '#4ade80',
+                            500: '#22c55e',
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        forest: '#0f2027',
+                        softbg: '#f4f8f5',
+                        glassborder: 'rgba(255, 255, 255, 0.4)',
+                    },
+                    boxShadow: {
+                        glass: '0 8px 32px 0 rgba(31, 38, 135, 0.07)',
+                        glow: '0 0 25px -5px rgba(34, 197, 94, 0.3)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f8f5;
+            color: #1e293b;
+            overflow-x: hidden;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.6);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .glass-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 20px 40px -15px rgba(22, 101, 52, 0.12);
+        }
+        .glass-nav {
+            background: rgba(244, 248, 245, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(22, 101, 52, 0.08);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #14532d 0%, #16a34a 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f2027 0%, #1c3b43 50%, #14532d 100%);
+        }
+        .pill-badge {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.35rem 0.85rem;
+            border-radius: 9999px;
+            font-size: 0.8125rem;
+            font-weight: 600;
+            background: rgba(34, 197, 94, 0.12);
+            color: #15803d;
+            border: 1px solid rgba(34, 197, 94, 0.25);
+        }
+        .page-transition {
+            opacity: 0;
+            transform: translateY(12px);
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+        .page-transition.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .article-content p {
+            margin-bottom: 1.25rem;
+            line-height: 1.8;
+            color: #334155;
+            font-size: 1.0625rem;
+        }
+        .article-content h2 {
+            font-size: 1.65rem;
+            font-weight: 700;
+            color: #0f2027;
+            margin-top: 2.25rem;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        .article-content h3 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: #166534;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .article-content ul {
+            list-style-type: disc;
+            padding-left: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .article-content li {
+            margin-bottom: 0.5rem;
+            line-height: 1.7;
+            color: #334155;
+        }
+        .article-content blockquote {
+            border-left: 4px solid #22c55e;
+            background: rgba(220, 252, 231, 0.4);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 0.75rem 0.75rem 0;
+            margin: 1.75rem 0;
+            font-style: italic;
+            color: #14532d;
+        }
+        .pro-tip-box {
+            background: rgba(240, 253, 244, 0.9);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+            border-left: 5px solid #16a34a;
+            border-radius: 0.75rem;
+            padding: 1.25rem;
+            margin: 1.75rem 0;
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-800 flex flex-col min-h-screen selection:bg-mint-200 selection:text-mint-900">
+
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#home" onclick="navigateTo('home')" class="flex items-center gap-2 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-mint-700 to-mint-500 flex items-center justify-center text-white font-bold text-xl shadow-glow group-hover:scale-105 transition-transform">
+                    S
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold tracking-tight text-slate-900">SANIIQ</span>
+                    <span class="block text-[10px] font-semibold text-mint-700 uppercase tracking-widest -mt-1">Pest Experts</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center gap-8 font-medium text-sm text-slate-700">
+                <a href="#home" onclick="navigateTo('home')" class="nav-link hover:text-mint-700 transition-colors py-1">Home</a>
+                <a href="#service" onclick="navigateTo('service')" class="nav-link hover:text-mint-700 transition-colors py-1">Service</a>
+                <a href="#about" onclick="navigateTo('about')" class="nav-link hover:text-mint-700 transition-colors py-1">About Us</a>
+                <a href="#blog" onclick="navigateTo('blog')" class="nav-link hover:text-mint-700 transition-colors py-1">Blog Hub</a>
+                <a href="#contact" onclick="navigateTo('contact')" class="nav-link hover:text-mint-700 transition-colors py-1">Contact</a>
+            </nav>
+
+            <!-- CTA Button -->
+            <div class="hidden md:flex items-center gap-4">
+                <a href="#contact" onclick="navigateTo('contact')" class="px-5 py-2.5 rounded-full bg-mint-800 hover:bg-mint-900 text-white font-medium text-sm shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5">
+                    Free Inspection Quote
+                </a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg text-slate-700 hover:bg-mint-100 focus:outline-none" aria-label="Toggle menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+            </button>
+        </div>
+
+        <!-- Mobile Drawer Menu -->
+        <div id="mobile-menu" class="hidden md:hidden border-b border-slate-200 bg-white/95 backdrop-blur-lg px-4 pt-2 pb-6 space-y-3">
+            <a href="#home" onclick="navigateTo('home'); toggleMobileMenu();" class="block py-2 text-base font-medium text-slate-800 hover:text-mint-700">Home</a>
+            <a href="#service" onclick="navigateTo('service'); toggleMobileMenu();" class="block py-2 text-base font-medium text-slate-800 hover:text-mint-700">Service</a>
+            <a href="#about" onclick="navigateTo('about'); toggleMobileMenu();" class="block py-2 text-base font-medium text-slate-800 hover:text-mint-700">About Us</a>
+            <a href="#blog" onclick="navigateTo('blog'); toggleMobileMenu();" class="block py-2 text-base font-medium text-slate-800 hover:text-mint-700">Blog Hub</a>
+            <a href="#contact" onclick="navigateTo('contact'); toggleMobileMenu();" class="block py-2 text-base font-medium text-slate-800 hover:text-mint-700">Contact</a>
+            <a href="#contact" onclick="navigateTo('contact'); toggleMobileMenu();" class="block w-full text-center px-4 py-3 rounded-xl bg-mint-800 text-white font-medium">Get Free Quote</a>
+        </div>
+    </header>
+
+    <!-- Main Container for SPA Pages -->
+    <main class="flex-grow pt-20">
+
+        <!-- ========================================== -->
+        <!-- PAGE 1: HOME PAGE -->
+        <!-- ========================================== -->
+        <section id="page-home" class="page-content page-transition active">
+            <!-- Hero Section -->
+            <div class="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-28">
+                <div class="absolute inset-0 -z-10 opacity-30 pointer-events-none">
+                    <div class="absolute -top-40 -right-40 w-96 h-96 bg-mint-300 rounded-full blur-3xl"></div>
+                    <div class="absolute top-60 -left-20 w-80 h-80 bg-mint-200 rounded-full blur-3xl"></div>
+                </div>
+
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="grid lg:grid-cols-12 gap-12 items-center">
+                        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                            <div class="pill-badge">
+                                <span class="w-2 h-2 rounded-full bg-mint-500 mr-2 animate-pulse"></span>
+                                Burlington's #1 Rated Eco-Friendly Rodent Exclusion
+                            </div>
+                            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                                Complete & Permanent <span class="gradient-text">Mice Control</span> in Burlington
+                            </h1>
+                            <p class="text-lg sm:text-xl text-slate-6xl max-w-2xl mx-auto lg:mx-0 leading-relaxed text-slate-600">
+                                Protect your family and structural integrity with Saniiq’s advanced thermal inspection, non-toxic baiting, and guaranteed 100% rodent exclusion systems.
+                            </p>
+                            <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                                <a href="#contact" onclick="navigateTo('contact')" class="px-8 py-4 rounded-full bg-mint-800 hover:bg-mint-900 text-white font-semibold text-base shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5 text-center">
+                                    Schedule Inspection
+                                </a>
+                                <a href="#service" onclick="navigateTo('service')" class="px-8 py-4 rounded-full glass-card hover:bg-white text-slate-800 font-semibold text-base border border-slate-200 text-center">
+                                    Explore Solutions
+                                </a>
+                            </div>
+
+                            <!-- Trust Markers -->
+                            <div class="pt-8 border-t border-slate-200/80 grid grid-cols-3 gap-4 text-center lg:text-left">
+                                <div>
+                                    <p class="text-2xl font-bold text-slate-900">100%</p>
+                                    <p class="text-xs text-slate-500 font-medium uppercase">Exclusion Success</p>
+                                </div>
+                                <div>
+                                    <p class="text-2xl font-bold text-slate-900">Humane</p>
+                                    <p class="text-xs text-slate-500 font-medium uppercase">Pet & Child Safe</p>
+                                </div>
+                                <div>
+                                    <p class="text-2xl font-bold text-slate-900">Warranty</p>
+                                    <p class="text-xs text-slate-500 font-medium uppercase">Written Guarantee</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Hero Feature Glass Card -->
+                        <div class="lg:col-span-5">
+                            <div class="glass-card rounded-3xl p-8 relative overflow-hidden border border-white">
+                                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-mint-100 rounded-full blur-xl -z-10"></div>
+                                <div class="flex items-center justify-between mb-6">
+                                    <span class="text-xs font-bold tracking-wider text-mint-800 uppercase bg-mint-100 px-3 py-1 rounded-full">Burlington Emergency Hub</span>
+                                    <span class="flex h-3 w-3 relative">
+                                      <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-mint-400 opacity-75"></span>
+                                      <span class="relative inline-flex rounded-full h-3 w-3 bg-mint-500"></span>
+                                    </span>
+                                </div>
+                                <h3 class="text-xl font-bold text-slate-900 mb-2">Notice Scritching in Your Walls?</h3>
+                                <p class="text-slate-600 text-sm mb-6">Mice multiply exponentially. A small winter entry point can become a severe health hazard within weeks.</p>
+                                
+                                <ul class="space-y-3 mb-6 text-sm text-slate-700">
+                                    <li class="flex items-center gap-3">
+                                        <div class="w-5 h-5 rounded-full bg-mint-100 text-mint-700 flex items-center justify-center font-bold text-xs">✓</div>
+                                        <span>Same-day inspection dispatch across Halton</span>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <div class="w-5 h-5 rounded-full bg-mint-100 text-mint-700 flex items-center justify-center font-bold text-xs">✓</div>
+                                        <span>Commercial-grade copper & steel exclusion</span>
+                                    </li>
+                                    <li class="flex items-center gap-3">
+                                        <div class="w-5 h-5 rounded-full bg-mint-100 text-mint-700 flex items-center justify-center font-bold text-xs">✓</div>
+                                        <span>Zero synthetic poison hazards for indoor air</span>
+                                    </li>
+                                </ul>
+
+                                <a href="#contact" onclick="navigateTo('contact')" class="block w-full text-center py-3 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm transition-colors">
+                                    Get Immediate Assistance
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Services Overview -->
+            <div class="py-16 bg-white/60">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="text-center max-w-2xl mx-auto mb-12">
+                        <h2 class="text-3xl font-bold text-slate-900">Targeted Mice Control Solutions</h2>
+                        <p class="text-slate-600 mt-2">Engineered specifically for Burlington residential properties and commercial facilities.</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-3 gap-8">
+                        <div class="glass-card p-8 rounded-2xl">
+                            <div class="w-12 h-12 bg-mint-100 text-mint-800 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🔍</div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3">Thermal Inspection</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">Pinpoint hidden nesting cavities behind drywall, insulation, and deep subfloors without damaging your home.</p>
+                        </div>
+                        <div class="glass-card p-8 rounded-2xl">
+                            <div class="w-12 h-12 bg-mint-100 text-mint-800 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🛡️</div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3">Structural Exclusion</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">We seal rooflines, foundation cracks, utility pass-throughs, and weep holes using heavy-gauge pest mesh.</p>
+                        </div>
+                        <div class="glass-card p-8 rounded-2xl">
+                            <div class="w-12 h-12 bg-mint-100 text-mint-800 rounded-xl flex items-center justify-center font-bold text-xl mb-6">🌱</div>
+                            <h3 class="text-xl font-bold text-slate-900 mb-3">Eco-Friendly Removal</h3>
+                            <p class="text-slate-600 text-sm leading-relaxed">Tamper-proof, child-safe mechanical trapping systems combined with natural botanical repellents.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Step Process -->
+            <div class="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-16">
+                    <span class="pill-badge mb-3">Our Methodology</span>
+                    <h2 class="text-3xl font-bold text-slate-900">The 4-Step Saniiq Protection Protocol</h2>
+                </div>
+
+                <div class="grid md:grid-cols-4 gap-6">
+                    <div class="glass-panel p-6 rounded-2xl relative">
+                        <span class="text-4xl font-black text-mint-200 absolute top-4 right-4">01</span>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">360° Audit</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Roof-to-foundation mapping of entry points and moisture sources.</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl relative">
+                        <span class="text-4xl font-black text-mint-200 absolute top-4 right-4">02</span>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">Custom Exclusion</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Installation of steel mesh, copper mesh, and heavy silicone seals.</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl relative">
+                        <span class="text-4xl font-black text-mint-200 absolute top-4 right-4">03</span>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">Humane Trapping</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Multi-catch tamper-proof traps placed in high-activity interior zones.</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl relative">
+                        <span class="text-4xl font-black text-mint-200 absolute top-4 right-4">04</span>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">Clearance & Monitoring</h4>
+                        <p class="text-xs text-slate-600 leading-relaxed">Follow-up audits, sanitation guidance, and full warranty issuance.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonials Section -->
+            <div class="py-20 bg-mint-900 text-white relative overflow-hidden">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                    <div class="text-center max-w-2xl mx-auto mb-12">
+                        <h2 class="text-3xl font-bold">Trusted Across the Greater Region</h2>
+                        <p class="text-mint-200 mt-2">See what homeowners say about Saniiq’s rodent control expertise.</p>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-8">
+                        <div class="p-8 rounded-2xl bg-white/10 backdrop-blur-md border border-white/10">
+                            <div class="flex text-amber-400 mb-4">★★★★★</div>
+                            <p class="text-slate-200 text-sm leading-relaxed mb-6">"We had a persistent mouse issue in our Burlington home every autumn. Saniiq came in, mapped every tiny entry behind our deck and garage, sealed them properly, and cleared the interior within 3 days. Remarkable precision!"</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-mint-700 flex items-center justify-center font-bold text-white">DB</div>
+                                <div>
+                                    <h5 class="font-bold text-sm">David B.</h5>
+                                    <p class="text-xs text-mint-300">Burlington Resident</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="p-8 rounded-2xl bg-white/10 backdrop-blur-md border border-white/10 border-l-4 border-l-mint-400">
+                            <div class="flex text-amber-400 mb-4">★★★★★</div>
+                            <p class="text-slate-200 text-sm leading-relaxed mb-6">"Having experienced pest troubles before moving down to Etobicoke, I reached out to Saniiq based on their reputation for Burlington mouse control. Their technicians are punctual, deeply thorough, and explain everything clearly. Absolutely zero mouse activity since!"</p>
+                            <div class="flex items-center gap-3">
+                                <div class="w-10 h-10 rounded-full bg-mint-700 flex items-center justify-center font-bold text-white">MK</div>
+                                <div>
+                                    <h5 class="font-bold text-sm">Mark K.</h5>
+                                    <p class="text-xs text-mint-300">Etobicoke (Homeowner)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- PAGE 2: SERVICE PAGE -->
+        <!-- ========================================== -->
+        <section id="page-service" class="page-content page-transition hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <!-- Header Banner -->
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="pill-badge mb-3">Service Deep-Dive</span>
+                    <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight">Professional Mice Control Services in Burlington</h1>
+                    <p class="text-slate-600 mt-4 text-lg">Comprehensive exclusion, humane removal, and permanent prevention protocols tailored for Burlington residential and commercial properties.</p>
+                </div>
+
+                <!-- Main Service Breakdown Grid -->
+                <div class="grid lg:grid-cols-3 gap-8 mb-16">
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div class="w-12 h-12 rounded-xl bg-mint-100 text-mint-800 flex items-center justify-center font-bold text-xl mb-6">🎯</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">1. Root-Cause Inspection</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Mice can squeeze through gaps as small as a dime (1/4 inch). Our technicians inspect foundation lines, siding overlaps, HVAC vents, roof intersections, and soffits using thermal scanners to locate every entry point.</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div class="w-12 h-12 rounded-xl bg-mint-100 text-mint-800 flex items-center justify-center font-bold text-xl mb-6">🔒</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">2. Structural Exclusion</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">Poisons alone do not solve rodent problems. We permanently seal entry gaps using industrial copper mesh, galvanized steel cloth, weather stripping, and heavy polyurethane sealants that mice cannot gnaw through.</p>
+                    </div>
+                    <div class="glass-card p-8 rounded-2xl">
+                        <div class="w-12 h-12 rounded-xl bg-mint-100 text-mint-800 flex items-center justify-center font-bold text-xl mb-6">🌱</div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-3">3. Safe Indoor Trapping</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed">We deploy lockable, tamper-proof bait and trap stations designed for maximum safety around children and household pets. Interior populations are rapidly eliminated without hazardous airborne chemicals.</p>
+                    </div>
+                </div>
+
+                <!-- Signs of Infestation Callout -->
+                <div class="glass-panel p-8 sm:p-12 rounded-3xl mb-16 border border-mint-200">
+                    <h2 class="text-2xl font-bold text-slate-900 mb-6">Common Signs You Need Mice Control in Burlington</h2>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-mint-200 text-mint-800 flex items-center justify-center font-bold text-sm flex-shrink-0">1</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Scratching & Squeaking Sounds</h4>
+                                <p class="text-xs text-slate-600 mt-1">Nighttime noises inside drywall, dropped ceilings, or attic floorboards as mice forage for food.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-mint-200 text-mint-800 flex items-center justify-center font-bold text-sm flex-shrink-0">2</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Small Rodent Droppings</h4>
+                                <p class="text-xs text-slate-600 mt-1">Dark, grain-of-rice-sized droppings under kitchen sinks, behind stoves, or along pantry baseboards.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-mint-200 text-mint-800 flex items-center justify-center font-bold text-sm flex-shrink-0">3</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Gnawed Materials & Packaging</h4>
+                                <p class="text-xs text-slate-600 mt-1">Chewed cereal boxes, cardboard storage, plastic containers, or electrical insulation.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-8 h-8 rounded-full bg-mint-200 text-mint-800 flex items-center justify-center font-bold text-sm flex-shrink-0">4</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Grease Rub Marks</h4>
+                                <p class="text-xs text-slate-600 mt-1">Oily smudge trails along baseboards and floor joints left by rodent fur during movement.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Accordion Component -->
+                <div class="max-w-3xl mx-auto">
+                    <h2 class="text-2xl font-bold text-slate-900 text-center mb-8">Frequently Asked Questions</h2>
+                    <div class="space-y-4">
+                        <div class="glass-card rounded-xl p-5 cursor-pointer" onclick="toggleFaq(this)">
+                            <div class="flex justify-between items-center font-bold text-slate-800">
+                                <span>How quickly can Saniiq eliminate mice from my home?</span>
+                                <span class="faq-icon text-mint-700 text-xl">+</span>
+                            </div>
+                            <div class="faq-answer hidden mt-3 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                                Complete elimination typically occurs within 3 to 7 days after total structural exclusion is completed. Once entry routes are sealed and interior traps are deployed, the active population is rapidly controlled.
+                            </div>
+                        </div>
+                        <div class="glass-card rounded-xl p-5 cursor-pointer" onclick="toggleFaq(this)">
+                            <div class="flex justify-between items-center font-bold text-slate-800">
+                                <span>Are your trapping methods safe for cats and dogs?</span>
+                                <span class="faq-icon text-mint-700 text-xl">+</span>
+                            </div>
+                            <div class="faq-answer hidden mt-3 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                                Yes. We utilize tamper-proof, key-locked stations designed specifically to keep pets and curious children completely safe from mechanical components and lures.
+                            </div>
+                        </div>
+                        <div class="glass-card rounded-xl p-5 cursor-pointer" onclick="toggleFaq(this)">
+                            <div class="flex justify-between items-center font-bold text-slate-800">
+                                <span>Do you offer a warranty on mouse control in Burlington?</span>
+                                <span class="faq-icon text-mint-700 text-xl">+</span>
+                            </div>
+                            <div class="faq-answer hidden mt-3 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+                                Absolute guarantee. All our full exclusion services include a comprehensive written warranty. If rodents break through any Saniiq-sealed gap during the warranty period, we re-service your home at zero additional cost.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- PAGE 3: ABOUT PAGE -->
+        <!-- ========================================== -->
+        <section id="page-about" class="page-content page-transition hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <!-- Story Header -->
+                <div class="max-w-3xl mx-auto text-center mb-16">
+                    <span class="pill-badge mb-3">About Saniiq</span>
+                    <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight">Dedicated to Healthy, Pest-Free Living Spaces</h1>
+                    <p class="text-slate-600 mt-4 text-lg">Saniiq was founded on a simple principle: rodent control should focus on permanent structural solutions rather than perpetual pesticide sprays.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+                    <div class="space-y-6">
+                        <h2 class="text-2xl font-bold text-slate-900">Our Mission & Approach</h2>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            For years, conventional pest control relied on quick chemical fixes that left homeowners trapped in endless service cycles. Saniiq changed that paradigm by pioneering non-invasive, structural exclusion technology across Burlington and surrounding regions.
+                        </p>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            We treat every home like a sealed biological envelope. By understanding rodent behavior, thermal pathways, and construction mechanics, we deliver eco-conscious solutions that restore peace of mind without compromising indoor air safety.
+                        </p>
+                    </div>
+
+                    <div class="glass-card p-8 rounded-3xl border border-white space-y-6">
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">The Saniiq Standard</h3>
+                        
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-mint-100 text-mint-800 flex items-center justify-center font-bold text-lg flex-shrink-0">🌿</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Eco-Conscious Excellence</h4>
+                                <p class="text-xs text-slate-600">Zero secondary poison risks for local wildlife, household pets, or children.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-mint-100 text-mint-800 flex items-center justify-center font-bold text-lg flex-shrink-0">🔬</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Scientific Inspection</h4>
+                                <p class="text-xs text-slate-600">Advanced diagnostic tools to find entry gaps invisible to the naked eye.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl bg-mint-100 text-mint-800 flex items-center justify-center font-bold text-lg flex-shrink-0">🛡️</div>
+                            <div>
+                                <h4 class="font-bold text-slate-900">Guaranteed Protection</h4>
+                                <p class="text-xs text-slate-600">Every exclusion install is backed by our rock-solid written warranty.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Credibility Metrics Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                    <div class="glass-panel p-6 rounded-2xl">
+                        <p class="text-3xl font-extrabold text-mint-800">1,200+</p>
+                        <p class="text-xs font-semibold text-slate-500 uppercase mt-1">Homes Protected</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl">
+                        <p class="text-3xl font-extrabold text-mint-800">100%</p>
+                        <p class="text-xs font-semibold text-slate-500 uppercase mt-1">Licensed Experts</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl">
+                        <p class="text-3xl font-extrabold text-mint-800">4.9 ★</p>
+                        <p class="text-xs font-semibold text-slate-500 uppercase mt-1">Average Rating</p>
+                    </div>
+                    <div class="glass-panel p-6 rounded-2xl">
+                        <p class="text-3xl font-extrabold text-mint-800">0%</p>
+                        <p class="text-xs font-semibold text-slate-500 uppercase mt-1">Toxic Sprays Used</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- PAGE 4: CONTACT PAGE -->
+        <!-- ========================================== -->
+        <section id="page-contact" class="page-content page-transition hidden">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="pill-badge mb-3">Get In Touch</span>
+                    <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight">Request Your Free Inspection</h1>
+                    <p class="text-slate-600 mt-2 text-sm sm:text-base">Connect with our Burlington rodent control specialists today for a prompt, discreet consultation.</p>
+                </div>
+
+                <!-- Privacy Compliant Lead Form -->
+                <div class="glass-card p-8 sm:p-12 rounded-3xl relative overflow-hidden border border-white">
+                    <!-- Success Toast/State Box -->
+                    <div id="contact-success" class="hidden mb-6 p-4 rounded-xl bg-mint-100 border border-mint-300 text-mint-900 text-sm font-medium text-center animate-fade-in">
+                        ✓ Your request has been transmitted successfully! A Saniiq specialist will reach out to you within 2 business hours.
+                    </div>
+
+                    <form id="lead-form" onsubmit="handleContactSubmit(event)" class="space-y-6">
+                        <div>
+                            <label for="fullName" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Full Name *</label>
+                            <input type="text" id="fullName" required placeholder="e.g. Jane Doe" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-mint-500 focus:outline-none bg-white/80 text-sm">
+                        </div>
+
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="emailAddr" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Email Address *</label>
+                                <input type="email" id="emailAddr" required placeholder="jane@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-mint-500 focus:outline-none bg-white/80 text-sm">
+                            </div>
+                            <div>
+                                <label for="phoneNum" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Phone Number *</label>
+                                <input type="tel" id="phoneNum" required placeholder="(905) 555-0199" class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-mint-500 focus:outline-none bg-white/80 text-sm">
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="messageText" class="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">Service Request Details *</label>
+                            <textarea id="messageText" rows="4" required placeholder="Describe your issue (e.g., scratching in wall, mouse droppings in basement)..." class="w-full px-4 py-3 rounded-xl border border-slate-200 focus:ring-2 focus:ring-mint-500 focus:outline-none bg-white/80 text-sm"></textarea>
+                        </div>
+
+                        <div class="pt-2">
+                            <button type="submit" class="w-full py-4 rounded-xl bg-mint-800 hover:bg-mint-900 text-white font-bold text-base shadow-lg hover:shadow-xl transition-all transform hover:-translate-y-0.5">
+                                Submit Consultation Request
+                            </button>
+                        </div>
+                        <p class="text-center text-xs text-slate-500 mt-4">🔒 We respect your privacy. Your information is strictly utilized to provide service quotes.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========================================== -->
+        <!-- PAGE 5: BLOG INDEX & ARTICLES HUB -->
+        <!-- ========================================== -->
+        <section id="page-blog" class="page-content page-transition hidden">
+            <!-- BLOG INDEX VIEW -->
+            <div id="blog-index-view" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <div class="text-center max-w-3xl mx-auto mb-12">
+                    <span class="pill-badge mb-3">Knowledge Hub</span>
+                    <h1 class="text-4xl font-extrabold text-slate-900 tracking-tight">Burlington Mouse Control & Exclusion Insights</h1>
+                    <p class="text-slate-600 mt-3">Expert guides on inspection, humane trapping, structural sealing, and eco-conscious rodent prevention.</p>
+                </div>
+
+                <!-- Articles Cards Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    
+                    <!-- Article Card 1 (Main) -->
+                    <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-white">
+                        <div class="p-6">
+                            <span class="text-[11px] font-bold text-mint-800 bg-mint-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Main Authority Guide</span>
+                            <h2 class="text-xl font-bold text-slate-900 mt-4 mb-3 hover:text-mint-700 transition-colors">
+                                <a href="#article-1" onclick="openArticle('article-1')">The Master Plan for Complete Mice Control in Burlington</a>
+                            </h2>
+                            <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                                Discover the ultimate blueprint for protecting your home against mice in Burlington. Learn complete thermal mapping, structural exclusion, and non-toxic removal strategies.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100/60 mt-4 flex justify-between items-center">
+                            <span class="text-xs text-slate-500 font-medium">1,150 Words • 6 min read</span>
+                            <a href="#article-1" onclick="openArticle('article-1')" class="text-xs font-bold text-mint-800 hover:text-mint-900">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Article Card 2 -->
+                    <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-white">
+                        <div class="p-6">
+                            <span class="text-[11px] font-bold text-mint-800 bg-mint-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Inspection Strategy</span>
+                            <h2 class="text-xl font-bold text-slate-900 mt-4 mb-3 hover:text-mint-700 transition-colors">
+                                <a href="#article-2" onclick="openArticle('article-2')">Comprehensive Inspection Strategies for Mice Control in Burlington</a>
+                            </h2>
+                            <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                                Detailed methods for identifying hidden rodent paths, thermal body heat pockets, dropping identification, and attic cavity audits in Burlington residences.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100/60 mt-4 flex justify-between items-center">
+                            <span class="text-xs text-slate-500 font-medium">1,080 Words • 5 min read</span>
+                            <a href="#article-2" onclick="openArticle('article-2')" class="text-xs font-bold text-mint-800 hover:text-mint-900">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Article Card 3 -->
+                    <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-white">
+                        <div class="p-6">
+                            <span class="text-[11px] font-bold text-mint-800 bg-mint-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Trapping & Baiting</span>
+                            <h2 class="text-xl font-bold text-slate-900 mt-4 mb-3 hover:text-mint-700 transition-colors">
+                                <a href="#article-3" onclick="openArticle('article-3')">Integrated Baiting and Trapping Methods for Mice Control in Burlington</a>
+                            </h2>
+                            <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                                An in-depth look at physics-driven trap placement, tamper-proof stations, non-toxic lure selection, and multi-catch mechanics for safe indoor rodent removal.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100/60 mt-4 flex justify-between items-center">
+                            <span class="text-xs text-slate-500 font-medium">1,110 Words • 5 min read</span>
+                            <a href="#article-3" onclick="openArticle('article-3')" class="text-xs font-bold text-mint-800 hover:text-mint-900">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Article Card 4 -->
+                    <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-white">
+                        <div class="p-6">
+                            <span class="text-[11px] font-bold text-mint-800 bg-mint-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Exclusion & Sealing</span>
+                            <h2 class="text-xl font-bold text-slate-900 mt-4 mb-3 hover:text-mint-700 transition-colors">
+                                <a href="#article-4" onclick="openArticle('article-4')">How to Identify and Seal Mouse Entry Points in Burlington Homes</a>
+                            </h2>
+                            <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                                Master the technical craft of home exclusion. Discover how copper mesh, silicone sealants, door sweeps, and weep hole screens block rodent access permanently.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100/60 mt-4 flex justify-between items-center">
+                            <span class="text-xs text-slate-500 font-medium">1,140 Words • 6 min read</span>
+                            <a href="#article-4" onclick="openArticle('article-4')" class="text-xs font-bold text-mint-800 hover:text-mint-900">Read Article →</a>
+                        </div>
+                    </div>
+
+                    <!-- Article Card 5 -->
+                    <div class="glass-card rounded-2xl overflow-hidden flex flex-col justify-between border border-white">
+                        <div class="p-6">
+                            <span class="text-[11px] font-bold text-mint-800 bg-mint-100 px-2.5 py-1 rounded-full uppercase tracking-wider">Eco Prevention</span>
+                            <h2 class="text-xl font-bold text-slate-900 mt-4 mb-3 hover:text-mint-700 transition-colors">
+                                <a href="#article-5" onclick="openArticle('article-5')">Eco-Friendly Pest Control Options for Mice in Burlington</a>
+                            </h2>
+                            <p class="text-xs text-slate-600 line-clamp-3 leading-relaxed">
+                                Sustainable, chemical-free methods for keeping mice out of your home. Botanical repellents, humane exclusion, and safe household hygiene practices.
+                            </p>
+                        </div>
+                        <div class="p-6 pt-0 border-t border-slate-100/60 mt-4 flex justify-between items-center">
+                            <span class="text-xs text-slate-500 font-medium">1,090 Words • 5 min read</span>
+                            <a href="#article-5" onclick="openArticle('article-5')" class="text-xs font-bold text-mint-800 hover:text-mint-900">Read Article →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- ========================================== -->
+            <!-- INDIVIDUAL ARTICLE SINGLE VIEWS -->
+            <!-- ========================================== -->
+
+            <!-- ARTICLE 1: MAIN ARTICLE -->
+            <article id="article-1" class="article-view hidden max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <button onclick="backToBlogIndex()" class="mb-8 text-xs font-bold text-mint-800 hover:underline flex items-center gap-1">← Back to Blog Index</button>
+                <div class="glass-card p-8 sm:p-12 rounded-3xl border border-white">
+                    <span class="pill-badge mb-4">Main Authority Guide</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">The Master Plan for Complete Mice Control in Burlington</h1>
+                    
+                    <div class="article-content">
+                        <p>When autumn temperatures drop in southern Ontario, mice instinctively search for warm shelter, dependable moisture, and accessible food sources. Burlington residential neighborhoods—ranging from historic downtown homes to suburban developments along Lake Ontario—provide an ideal habitat for house mice (<em>Mus musculus</em>) and deer mice. Left unaddressed, a minor rodent presence can rapidly evolve into a widespread infestation capable of causing structural wood damage, electrical fire risks from chewed wiring, and indoor air contamination.</p>
+                        
+                        <p>Achieving permanent eradication requires far more than scattering off-the-shelf poison packets or setting a couple of spring traps in the basement. True long-term relief demands an integrated master plan that combines rigorous perimeter diagnostics, heavy-duty mechanical exclusion, strategic interior removal, and ongoing environmental management. This guide breaks down the professional blueprint utilized by leading specialists to achieve total <a href="https://saniiq.com/mice-control-burlington/" target="_blank" class="font-bold text-mint-800 underline hover:text-mint-900">Mice Control in Burlington</a>.</p>
+
+                        <h2>Phase 1: Comprehensive Property Diagnostics</h2>
+                        <p>A successful mice control strategy begins with understanding how rodents interact with your home's unique architectural structure. Mice possess soft cartilage and flexible skeletons, enabling them to squeeze through gaps as small as a quarter-inch—roughly the diameter of an ordinary pencil.</p>
+                        
+                        <p>Professional technicians conduct a 360-degree audit starting at ground level and extending up to the roof ridge. Key diagnostic targets include:</p>
+                        <ul>
+                            <li><strong>Foundation-Siding Intersections:</strong> Small gaps where brick veneer meets wood or vinyl siding are primary highways for migrating rodents.</li>
+                            <li><strong>Utility & HVAC Penetrations:</strong> Gaps around outdoor air conditioning lines, gas pipes, and dryer vents often lack tight weather seals.</li>
+                            <li><strong>Weep Holes:</strong> Designed to allow moisture drainage in brick walls, unscreened weep holes serve as wide-open doorways for foraging mice.</li>
+                            <li><strong>Rooflines & Soffit Corners:</strong> Overhanging branches allow mice to climb onto roofs, entering through loose soffit screens or fascia gaps into warm attics.</li>
+                        </ul>
+
+                        <h2>Phase 2: Structural Exclusion & Defensiveness</h2>
+                        <p>Exclusion is the single most critical pillar of permanent rodent eradication. If entry points remain open, removing interior mice merely creates a vacant territory for new rodents to occupy. To execute effective exclusion, professionals avoid materials like foam or plastic tape, which mice effortlessly chew through.</p>
+
+                        <div class="pro-tip-box">
+                            <h3 class="font-bold text-mint-900 !mt-0 mb-1">Pro Tip: Materials Matter for Sealing</h3>
+                            <p class="text-sm text-slate-700 !mb-0">Always use pure copper mesh or stainless steel wool combined with high-grade polyurethane sealants. Mice cannot chew through industrial-grade wire mesh, ensuring your exclusion barriers remain intact for years.</p>
+                        </div>
+
+                        <p>For more technical details on pinpointing structural gaps around your property, review our specialized guide on <a href="#article-2" onclick="openArticle('article-2')" class="text-mint-800 font-semibold hover:underline">Comprehensive Inspection Strategies for Mice Control in Burlington</a>.</p>
+
+                        <h2>Phase 3: Tactical Interior Population Elimination</h2>
+                        <p>Once all exterior entry points are fully sealed, interior trapping begins. With external access blocked, the remaining mice inside the structure are trapped within controlled zones, making targeted removal exceptionally swift.</p>
+
+                        <p>Rather than using hazardous chemical poisons that risk mice dying inside inaccessible wall voids, integrated pest protocols rely on tamper-proof snap traps and multi-catch mechanical devices. Traps are positioned precisely along established scent trails, baseboards, and dark storage areas where mice naturally travel.</p>
+
+                        <p>For a complete breakdown of advanced trapping physics and non-toxic lures, consult our detailed walkthrough on <a href="#article-3" onclick="openArticle('article-3')" class="text-mint-800 font-semibold hover:underline">Integrated Baiting and Trapping Methods for Mice Control in Burlington</a>.</p>
+
+                        <h2>Phase 4: Environmental Sanitation & Harbor Management</h2>
+                        <p>The final phase focuses on eliminating attractants that invite future pest pressure around your perimeter. A home’s exterior landscape often provides food and cover long before rodents attempt to breach the building envelope.</p>
+                        <ul>
+                            <li>Trim tree branches and heavy shrubbery at least 3 feet away from exterior walls and rooflines.</li>
+                            <li>Store firewood piles on raised racks positioned at least 20 feet away from the foundation.</li>
+                            <li>Store lawn grass seed, pet food, and bird seed in heavy galvanized metal bins with tight lids.</li>
+                        </ul>
+
+                        <p>To master structural sealing materials like copper mesh, door sweeps, and weep hole screens, see our step-by-step tutorial on <a href="#article-4" onclick="openArticle('article-4')" class="text-mint-800 font-semibold hover:underline">How to Identify and Seal Mouse Entry Points in Burlington Homes</a>.</p>
+
+                        <!-- Customer Testimonial Spotlight -->
+                        <blockquote>
+                            <p class="font-semibold text-slate-900 mb-2">"Extremely Impressed with the Thoroughness!"</p>
+                            <p class="text-sm text-slate-700">"After moving to Etobicoke from Burlington, I noticed scratching sounds in our crawlspace during early November. Saniiq’s team applied their systematic exclusion process—sealing every tiny gap around our foundation and utility pipes. The scratching stopped completely within 48 hours. Their approach to Burlington mouse control is second to none!"</p>
+                            <cite class="block text-xs font-bold text-mint-800 mt-2 hover:not-italic">— Mark K., Regional Property Owner (Etobicoke Spotlight)</cite>
+                        </blockquote>
+
+                        <h2>Conclusion</h2>
+                        <p>Achieving total peace of mind against rodent invasions requires an uncompromising, multi-step system. By combining thorough thermal diagnostics, heavy exclusion materials, precision trapping, and proactive yard maintenance, Burlington homeowners can protect their indoor air quality and structural integrity for years to come.</p>
+
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="space-y-4 my-6">
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Why do mice keep returning to my Burlington home every winter?</h3>
+                                <p class="text-sm text-slate-600">Mice return because residual pheromone trails left by past infestations mark entry routes. Unless those physical entry gaps are permanently sealed with steel mesh and elastomeric sealant, new mice will continually discover the same access points.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Is poison bait necessary for complete mouse elimination?</h3>
+                                <p class="text-sm text-slate-600">No. In fact, professional exclusion combined with targeted mechanical snap trapping is faster and safer than poison baits, avoiding the risk of dead mice decomposing inside wall voids.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">How small of a hole can a mouse pass through?</h3>
+                                <p class="text-sm text-slate-600">An adult house mouse can pass through any opening larger than 1/4 inch (approx. 6mm), which is roughly the width of an ordinary graphite pencil.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">What is the first step I should take if I hear noises in my ceiling?</h3>
+                                <p class="text-sm text-slate-600">Schedule a professional structural audit immediately. Avoid disturbing the attic insulation until entry routes are mapped and sealed by trained technicians.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTICLE 2 -->
+            <article id="article-2" class="article-view hidden max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <button onclick="backToBlogIndex()" class="mb-8 text-xs font-bold text-mint-800 hover:underline flex items-center gap-1">← Back to Blog Index</button>
+                <div class="glass-card p-8 sm:p-12 rounded-3xl border border-white">
+                    <span class="pill-badge mb-4">Inspection Strategy</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">Comprehensive Inspection Strategies for Mice Control in Burlington</h1>
+                    
+                    <div class="article-content">
+                        <p>Effective rodent management hinges upon accurate diagnostic intelligence. Before installing traps or sealing gaps, an inspector must map out the entire structural ecosystem of the building. In Burlington’s varied residential landscapes, mouse activity varies significantly between older lakeside homes with fieldstone foundations and newer master-planned developments equipped with brick-veneer exteriors.</p>
+
+                        <p>To establish lasting protection, property owners and pest professionals must employ rigorous inspection strategies designed to uncover active travel corridors, nesting hubs, and subtle exterior entry breaches.</p>
+
+                        <h2>Thermal Imaging & Diagnostic Tools</h2>
+                        <p>Modern rodent inspections rely heavily on non-invasive technology. Thermal imaging cameras detect minute temperature variations across drywall, soffits, and floorboards. Because mice aggregate in clusters and line their nests with shredded fiberglass insulation, their nesting sites create distinct thermal hotspots visible on infrared monitors.</p>
+
+                        <p>Furthermore, thermal diagnostics locate cold air drafts entering through unsealed foundation cracks or gaps around rim joists—pointing technicians directly to active rodent entry routes without requiring destructive wall cutouts.</p>
+
+                        <h2>Identifying Physical Signposts & Rub Marks</h2>
+                        <p>Mice suffer from poor vision and rely on touch and scent to navigate dark interior spaces. As they travel along baseboards and structural beams, the natural oils and dirt in their fur leave dark, greasy smudges known as rub marks.</p>
+                        
+                        <p>Key areas to inspect for rub marks and fresh droppings include:</p>
+                        <ul>
+                            <li>Behind refrigerator coils and beneath kitchen dishwashers.</li>
+                            <li>Along lower basement wall ledges and rim joist cavities.</li>
+                            <li>Around hot water heater pipes and furnace utility lines.</li>
+                        </ul>
+
+                        <p>For a macro overview of integrated rodent elimination after completing your initial audit, refer back to <a href="#article-1" onclick="openArticle('article-1')" class="text-mint-800 font-semibold hover:underline">The Master Plan for Complete Mice Control in Burlington</a>.</p>
+
+                        <h2>Attic & Crawlspace Audits</h2>
+                        <p>Attics and crawlspaces serve as prime nesting grounds due to low foot traffic and abundant thermal insulation. During an audit, technicians inspect fiberglass batts for tunneling trails, compressed insulation paths, and chewed electrical wires.</p>
+
+                        <p>Special attention is paid to roof ridge vents, gable vents, and plumbing stack flashings, as mice frequently move up exterior brick corners to enter through compromised rooflines.</p>
+
+                        <p>Once entry points are pinpointed, deploying precision traps becomes straightforward. Learn more about effective trapping physics in <a href="#article-3" onclick="openArticle('article-3')" class="text-mint-800 font-semibold hover:underline">Integrated Baiting and Trapping Methods for Mice Control in Burlington</a>.</p>
+
+                        <h2>Conclusion</h2>
+                        <p>A thorough inspection eliminates guesswork from rodent control. By combining thermal imaging technology with meticulous visual tracking along foundation lines and attic cavities, property owners can build an airtight defense strategy against winter rodent invasions.</p>
+
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="space-y-4 my-6">
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">How can I tell fresh mouse droppings from old ones?</h3>
+                                <p class="text-sm text-slate-600">Fresh droppings are dark, moist, and pliable. Older droppings turn dull gray, dry, and crumble easily when touched.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Can thermal imaging find mice inside insulated walls?</h3>
+                                <p class="text-sm text-slate-600">Yes. Thermal cameras detect the heat signatures emitted by active nesting clusters and heat loss caused by chewed insulation voids.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Why do mice prefer nesting in attics?</h3>
+                                <p class="text-sm text-slate-600">Attics provide ambient warmth from rising household heat, soft insulation material for nest building, and total isolation from humans.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Should I clean droppings before an inspection?</h3>
+                                <p class="text-sm text-slate-600">No. Leave droppings intact until the technician inspects them, as their location and density reveal key travel corridors.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTICLE 3 -->
+            <article id="article-3" class="article-view hidden max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <button onclick="backToBlogIndex()" class="mb-8 text-xs font-bold text-mint-800 hover:underline flex items-center gap-1">← Back to Blog Index</button>
+                <div class="glass-card p-8 sm:p-12 rounded-3xl border border-white">
+                    <span class="pill-badge mb-4">Trapping & Baiting</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">Integrated Baiting and Trapping Methods for Mice Control in Burlington</h1>
+                    
+                    <div class="article-content">
+                        <p>Removing rodents from a residence requires precision, environmental safety, and strategic mechanical trap placement. While many homeowners attempt DIY trapping with inconsistent results, professional integrated pest management utilizes physics-based placement rules and specialized lures to clear interior infestations quickly.</p>
+
+                        <p>Understanding trap mechanics, station placement, and non-toxic bait selection is vital for achieving rapid elimination without creating hazards for domestic pets or young children.</p>
+
+                        <h2>Snap Traps vs. Multi-Catch Stations</h2>
+                        <p>Different infestation levels require distinct trapping equipment:</p>
+                        <ul>
+                            <li><strong>Expanded Trigger Snap Traps:</strong> High-tension snap mechanisms featuring oversized trigger pedals provide immediate, humane elimination along narrow runways.</li>
+                            <li><strong>Multi-Catch Mechanical Traps:</strong> Wind-up or trap-door style boxes capable of capturing multiple mice in a single setting without requiring resets—ideal for high-density garage or basement utility areas.</li>
+                            <li><strong>Tamper-Proof Lockable Enclosures:</strong> Heavy plastic stations that house snap mechanisms internally, accessible only via dual-key locks to protect curious pets and children.</li>
+                        </ul>
+
+                        <h2>Trap Placement Physics & Runway Alignment</h2>
+                        <p>Mice suffer from severe thigmotaxis—a behavioral trait that drives them to keep their whiskers in physical contact with vertical surfaces like walls and baseboards. Placing a trap in the center of an open room is largely ineffective.</p>
+
+                        <p>Traps must be placed perpendicular to the wall, with the baited trigger mechanism facing directly toward the baseboard. This ensures that a rodent moving along the wall from either direction trips the pedal instantly.</p>
+
+                        <p>For structural exclusion techniques to combine with your trapping routine, explore <a href="#article-4" onclick="openArticle('article-4')" class="text-mint-800 font-semibold hover:underline">How to Identify and Seal Mouse Entry Points in Burlington Homes</a>.</p>
+
+                        <h2>Selecting Non-Toxic Professional Lures</h2>
+                        <p>Cheese is largely a myth in modern pest control. Mice crave high-calorie, protein-rich, and fatty foods. Highly effective lures include professional food-grade aromatic gels, peanut butter blended with oat flakes, and pumpkin seed butter.</p>
+
+                        <p>In homes where rodents are nesting rather than actively feeding, non-food lures such as cotton balls or dental floss tied to the trigger pedal work remarkably well, as pregnant females actively seek nesting material.</p>
+
+                        <p>To integrate your trapping schedule within an overall eradication strategy, read <a href="#article-1" onclick="openArticle('article-1')" class="text-mint-800 font-semibold hover:underline">The Master Plan for Complete Mice Control in Burlington</a>.</p>
+
+                        <h2>Conclusion</h2>
+                        <p>Mastering trap mechanics, runway alignment, and safe station housing ensures fast, humane removal of interior rodent populations while maintaining complete household safety.</p>
+
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="space-y-4 my-6">
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Why are mice eating my bait without triggering the trap?</h3>
+                                <p class="text-sm text-slate-600">This occurs when too much bait is applied. Use a tiny, pea-sized amount pressed firmly into the trigger cup so the rodent must apply pressure to extract it.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">How far apart should traps be placed along a wall?</h3>
+                                <p class="text-sm text-slate-600">Space traps approximately 3 to 6 feet apart in areas showing high activity like droppings or rub marks.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Are glue boards recommended for mouse control?</h3>
+                                <p class="text-sm text-slate-600">No. Glue boards are considered inhumane and inefficient compared to modern expanded-trigger mechanical snap traps.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Should I wear gloves when handling and baiting traps?</h3>
+                                <p class="text-sm text-slate-600">Yes. Wearing nitrile gloves prevents human scent from transferring onto the traps, which can otherwise make cautious mice hesitant to approach.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTICLE 4 -->
+            <article id="article-4" class="article-view hidden max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <button onclick="backToBlogIndex()" class="mb-8 text-xs font-bold text-mint-800 hover:underline flex items-center gap-1">← Back to Blog Index</button>
+                <div class="glass-card p-8 sm:p-12 rounded-3xl border border-white">
+                    <span class="pill-badge mb-4">Exclusion & Sealing</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">How to Identify and Seal Mouse Entry Points in Burlington Homes</h1>
+                    
+                    <div class="article-content">
+                        <p>Structural exclusion is the definitive line of defense between a rodent-free living space and recurring pest invasions. Burlington homes feature diverse architectural designs—from classical brick homes to modern composite sidings—each presenting specific exterior vulnerabilities that rodents exploit when weather cools.</p>
+
+                        <p>By mastering exclusion materials and systematic sealing procedures, homeowners can permanently block entry access points.</p>
+
+                        <h2>Selecting Professional Exclusion Materials</h2>
+                        <p>Standard expansion foam and rubber weather-stripping are inadequate deterrents against determined mice, as their sharp incisors easily gnaw through soft materials. Effective exclusion requires hard structural barriers:</p>
+                        <ul>
+                            <li><strong>Copper Mesh (Stuff-it):</strong> Pure woven copper wire mesh that will not rust or stain exterior masonry, perfect for stuffing tight gaps and weep holes.</li>
+                            <li><strong>Galvanized Hardware Cloth:</strong> 1/4-inch welded steel wire mesh utilized for covering broad attic vents, soffit openings, and chimney caps.</li>
+                            <li><strong>Polyurethane Masonry Sealant:</strong> High-grade exterior elastomeric caulking applied over copper mesh to form a durable, weatherproof barrier.</li>
+                            <li><strong>Heavy-Duty Nylon/Metal Door Sweeps:</strong> Reinforced sweeps installed on garage and side doors to eliminate gaps exceeding 1/4 inch.</li>
+                        </ul>
+
+                        <h2>Step-by-Step Exterior Sealing Guide</h2>
+
+                        <div class="pro-tip-box">
+                            <h3 class="font-bold text-mint-900 !mt-0 mb-1">Step 1: Weep Hole Retrofitting</h3>
+                            <p class="text-sm text-slate-700 !mb-0">Insert stainless steel weep hole covers or tightly packed copper mesh into brick weep slits. Never plug weep holes completely with solid mortar, as moisture must continue to drain from wall cavities.</p>
+                        </div>
+
+                        <h3>Step 2: Utility Penetration Collar Sealing</h3>
+                        <p>Inspect exterior gas lines, AC refrigerant sleeves, and hose bibs. Pack all gaps tightly with copper mesh before sealing flush with outdoor polyurethane caulking.</p>
+
+                        <h3>Step 3: Garage Door & Threshold Reinforcement</h3>
+                        <p>Check the bottom rubber seal of garage doors. If the corners are chewed or worn, install heavy-duty aluminum-backed rubber door sweeps and replace worn weather stripping.</p>
+
+                        <p>For sustainable, non-toxic preventative measures to complement your structural sealing work, consult <a href="#article-5" onclick="openArticle('article-5')" class="text-mint-800 font-semibold hover:underline">Eco-Friendly Pest Control Options for Mice in Burlington</a>.</p>
+
+                        <p>To review diagnostic methods for mapping exterior breaches, read <a href="#article-2" onclick="openArticle('article-2')" class="text-mint-800 font-semibold hover:underline">Comprehensive Inspection Strategies for Mice Control in Burlington</a>.</p>
+
+                        <h2>Conclusion</h2>
+                        <p>Investing in commercial-grade exclusion materials guarantees long-term rodent protection. Sealing gaps with copper mesh and polyurethane sealant keeps your building envelope secure through every seasonal change.</p>
+
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="space-y-4 my-6">
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Can I use expanding foam alone to seal mouse holes?</h3>
+                                <p class="text-sm text-slate-600">No. Mice can chew through spray foam within minutes. Always pack the gap with copper or steel mesh before applying expanding foam over top.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Will steel wool rust outside on my brick exterior?</h3>
+                                <p class="text-sm text-slate-600">Standard steel wool rusts when exposed to moisture, leaving orange stains on masonry. Use copper mesh or stainless steel mesh instead.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">How do I seal gaps around my garage door?</h3>
+                                <p class="text-sm text-slate-600">Install heavy rubber bottom seals fitted with internal metal mesh or add aluminum-backed side seals to eliminate corner gaps.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">What is the best way to cover large gable vents?</h3>
+                                <p class="text-sm text-slate-600">Fasten 1/4-inch galvanized steel hardware cloth over the interior or exterior side of the vent frame using stainless steel screws.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- ARTICLE 5 -->
+            <article id="article-5" class="article-view hidden max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+                <button onclick="backToBlogIndex()" class="mb-8 text-xs font-bold text-mint-800 hover:underline flex items-center gap-1">← Back to Blog Index</button>
+                <div class="glass-card p-8 sm:p-12 rounded-3xl border border-white">
+                    <span class="pill-badge mb-4">Eco Prevention</span>
+                    <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight mb-6">Eco-Friendly Pest Control Options for Mice in Burlington</h1>
+                    
+                    <div class="article-content">
+                        <p>Modern homeowners increasingly seek pest control approaches that prioritize environmental safety, indoor air purity, and pet protection. Traditional chemical rodenticides pose significant secondary poisoning risks to neighborhood pets, birds of prey, and local wildlife across Burlington's green spaces and lakefront parks.</p>
+
+                        <p>Fortunately, eco-friendly rodent management offers an effective, non-toxic alternative. By combining botanical deterrents, mechanical exclusion, and proactive habitat management, you can maintain a rodent-free environment without harsh chemicals.</p>
+
+                        <h2>Botanical Repellents & Natural Deterrents</h2>
+                        <p>Mice possess an extraordinarily acute olfactory system. High concentrations of specific natural essential oils irritate their nasal passages and disrupt their scent-tracking abilities:</p>
+                        <ul>
+                            <li><strong>Concentrated Peppermint Oil:</strong> Pure 100% peppermint essential oil applied to cotton spheres along perimeter thresholds creates a strong natural repellent zone.</li>
+                            <li><strong>Balsam Fir Oil Formulations:</strong> Plant-based rodent deterrent pouches containing balsam fir oil emit a forest scent that drives mice to seek alternative shelter.</li>
+                            <li><strong>Eucalyptus & Clove Extracts:</strong> Secondary natural oils useful for spraying around crawlspace beams and non-living attic spaces.</li>
+                        </ul>
+
+                        <h2>Zero-Chemical Humane Exclusion Protocols</h2>
+                        <p>Eco-friendly pest management centers on exclusion—physically barring entry so chemicals are entirely unnecessary. Installing mechanical mesh barriers and structural door sweeps prevents entry, allowing rodents to remain in their natural outdoor habitats where they contribute positively to local soil ecology.</p>
+
+                        <p>For a detailed guide on structural exclusion methods, see our guide on <a href="#article-4" onclick="openArticle('article-4')" class="text-mint-800 font-semibold hover:underline">How to Identify and Seal Mouse Entry Points in Burlington Homes</a>.</p>
+
+                        <h2>Sustainable Landscape & Property Maintenance</h2>
+                        <p>Your yard serves as the first line of defense. Managing outdoor attractants significantly reduces the urge for mice to move indoors:</p>
+                        <ul>
+                            <li>Keep lawn vegetation trimmed short and eliminate dense ivy groundcover near foundation walls.</li>
+                            <li>Install bird feeder trays that catch fallen seeds, or suspend feeders far from structural rooflines.</li>
+                            <li>Ensure outdoor compost bins are sealed in thick, heavy-duty plastic or metal tumblers.</li>
+                        </ul>
+
+                        <p>To see how eco-friendly prevention fits into our complete rodent management system, review <a href="#article-1" onclick="openArticle('article-1')" class="text-mint-800 font-semibold hover:underline">The Master Plan for Complete Mice Control in Burlington</a>.</p>
+
+                        <h2>Conclusion</h2>
+                        <p>Eco-friendly rodent control delivers outstanding results without compromising family health or environmental integrity. Combining natural botanical repellents with structural exclusion ensures long-lasting home protection.</p>
+
+                        <h2>Frequently Asked Questions</h2>
+                        <div class="space-y-4 my-6">
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Does peppermint oil permanently repel mice?</h3>
+                                <p class="text-sm text-slate-600">Peppermint oil acts as an effective temporary repellent, but it must be refreshed weekly and combined with physical gap sealing for permanent results.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Are ultrasonic mouse repeller plug-ins effective?</h3>
+                                <p class="text-sm text-slate-600">Ultrasonic devices offer very limited short-term deterrence. Mice quickly acclimate to the sound frequency if food and shelter remain accessible.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">Are eco-friendly methods safe around newborn pets?</h3>
+                                <p class="text-sm text-slate-600">Yes. Physical exclusion barriers and plant-based deterrent pouches present zero toxic chemical risks to domestic animals.</p>
+                            </div>
+                            <div class="border-b border-slate-200 pb-3">
+                                <h3 class="!mt-0 !mb-1 text-slate-900 font-bold">How can I keep mice out of my outdoor garden compost box?</h3>
+                                <p class="text-sm text-slate-600">Line the bottom and sides of your compost tumbler with 1/4-inch galvanized hardware cloth to permit air flow while blocking rodent burrowing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-forest text-slate-400 py-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div class="md:col-span-2 space-y-4">
+                    <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 rounded-lg bg-mint-600 flex items-center justify-center text-white font-bold text-lg">S</div>
+                        <span class="text-xl font-extrabold text-white tracking-tight">SANIIQ PEST EXPERTS</span>
+                    </div>
+                    <p class="text-xs text-slate-400 max-w-sm leading-relaxed">
+                        Burlington’s trusted authority in eco-friendly rodent control, structural exclusion, and sustainable pest prevention. Backed by written performance guarantees.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#home" onclick="navigateTo('home')" class="hover:text-mint-400 transition-colors">Home</a></li>
+                        <li><a href="#service" onclick="navigateTo('service')" class="hover:text-mint-400 transition-colors">Service Breakdown</a></li>
+                        <li><a href="#about" onclick="navigateTo('about')" class="hover:text-mint-400 transition-colors">About Saniiq</a></li>
+                        <li><a href="#blog" onclick="navigateTo('blog')" class="hover:text-mint-400 transition-colors">Blog Knowledge Hub</a></li>
+                        <li><a href="#contact" onclick="navigateTo('contact')" class="hover:text-mint-400 transition-colors">Contact Form</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Service Scope</h4>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Serving Burlington, Halton Region, and neighboring Greater Toronto communities with commercial-grade mouse exclusion and humane pest management.
+                    </p>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-6 text-center text-[11px] text-slate-500">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Saniiq Pest Experts. All Rights Reserved. Eco-Friendly Rodent Solutions.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Single Page Application Router Logic
+        function navigateTo(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page-content');
+            pages.forEach(page => {
+                page.classList.remove('active');
+                page.classList.add('hidden');
+            });
+
+            // Show selected page
+            const targetPage = document.getElementById('page-' + pageId);
+            if (targetPage) {
+                targetPage.classList.remove('hidden');
+                setTimeout(() => {
+                    targetPage.classList.add('active');
+                }, 20);
+            }
+
+            // Update Metadata & Title
+            const titleElement = document.getElementById('dynamic-title');
+            const metaElement = document.getElementById('dynamic-meta');
+
+            if (pageId === 'home') {
+                titleElement.innerText = "Mice Control in Burlington | Saniiq Pest Experts";
+                metaElement.setAttribute("content", "Professional eco-friendly mice control in Burlington. Thermal inspections, 100% permanent structural exclusion, and written performance guarantees.");
+            } else if (pageId === 'service') {
+                titleElement.innerText = "Services | Mice Control in Burlington | Saniiq";
+                metaElement.setAttribute("content", "Discover Saniiq's step-by-step mice exclusion process in Burlington. Non-toxic, pet-safe, and guaranteed rodent removal.");
+            } else if (pageId === 'about') {
+                titleElement.innerText = "About Saniiq Pest Experts | Eco-Friendly Pest Control";
+                metaElement.setAttribute("content", "Learn about Saniiq Pest Experts—our mission, values, and commitment to sustainable, non-poisonous rodent exclusion.");
+            } else if (pageId === 'contact') {
+                titleElement.innerText = "Contact Saniiq | Free Mice Control Inspection Burlington";
+                metaElement.setAttribute("content", "Request a free consultation and inspection for mice control in Burlington. Quick, privacy-compliant response.");
+            } else if (pageId === 'blog') {
+                titleElement.innerText = "Blog & Insights | Mice Control in Burlington Hub";
+                metaElement.setAttribute("content", "Explore expert articles on inspection strategies, trapping mechanics, structural entry point sealing, and eco-friendly rodent prevention.");
+                backToBlogIndex();
+            }
+
+            // Scroll to top smooth
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // Article Viewer Switcher
+        function openArticle(articleId) {
+            // Ensure blog page is active
+            const blogPage = document.getElementById('page-blog');
+            if (blogPage.classList.contains('hidden')) {
+                navigateTo('blog');
+            }
+
+            // Hide index view
+            document.getElementById('blog-index-view').classList.add('hidden');
+
+            // Hide all article views
+            const articles = document.querySelectorAll('.article-view');
+            articles.forEach(art => art.classList.add('hidden'));
+
+            // Show target article
+            const targetArt = document.getElementById(articleId);
+            if (targetArt) {
+                targetArt.classList.remove('hidden');
+            }
+
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function backToBlogIndex() {
+            // Hide all articles
+            const articles = document.querySelectorAll('.article-view');
+            articles.forEach(art => art.classList.add('hidden'));
+
+            // Show index view
+            document.getElementById('blog-index-view').classList.remove('hidden');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        // FAQ Toggle Accordion
+        function toggleFaq(cardElement) {
+            const answer = cardElement.querySelector('.faq-answer');
+            const icon = cardElement.querySelector('.faq-icon');
+            if (answer.classList.contains('hidden')) {
+                answer.classList.remove('hidden');
+                icon.innerText = '−';
+            } else {
+                answer.classList.add('hidden');
+                icon.innerText = '+';
+            }
+        }
+
+        // Lead Form Handler
+        function handleContactSubmit(e) {
+            e.preventDefault();
+            const successBox = document.getElementById('contact-success');
+            const form = document.getElementById('lead-form');
+            
+            successBox.classList.remove('hidden');
+            form.reset();
+            
+            window.scrollTo({ top: successBox.offsetTop - 100, behavior: 'smooth' });
+        }
+
+        // Mobile Menu Drawer Toggle
+        function toggleMobileMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+
+        document.getElementById('mobile-menu-btn').addEventListener('click', toggleMobileMenu);
+
+        // Handle URL Hash on Initial Load
+        window.addEventListener('DOMContentLoaded', () => {
+            const hash = window.location.hash.replace('#', '');
+            if (hash.startsWith('article-')) {
+                navigateTo('blog');
+                openArticle(hash);
+            } else if (['home', 'service', 'about', 'contact', 'blog'].includes(hash)) {
+                navigateTo(hash);
+            } else {
+                navigateTo('home');
+            }
+        });
+    </script>
+</body>
+</html>
